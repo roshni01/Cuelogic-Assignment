@@ -2,7 +2,7 @@
 //  Cuelogic_AssignmentTests.swift
 //  Cuelogic-AssignmentTests
 //
-//  Created by Rajesh Darak on 07/09/16.
+//  Created by  Roshani Mahajan on 07/09/16.
 //  Copyright © 2016 Roshani Mahajan. All rights reserved.
 //
 

@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8344E8CB4B3C2CE928B0D8E7 /* Pods_Cuelogic_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A14128BA3A9E3712C18F8E0 /* Pods_Cuelogic_Assignment.framework */; };
+		AE05F4F861B2678692B2E756 /* Pods_Cuelogic_AssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F74F7C2D1A0C1282D8E26B /* Pods_Cuelogic_AssignmentTests.framework */; };
+		D86F6089F27086545A223792 /* Pods_Cuelogic_AssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 918F4F725B9A82BFD6FB3147 /* Pods_Cuelogic_AssignmentUITests.framework */; };
 		E131429A1D801B3200C639A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13142991D801B3200C639A8 /* AppDelegate.swift */; };
-		E131429C1D801B3200C639A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E131429B1D801B3200C639A8 /* ViewController.swift */; };
-		E131429F1D801B3200C639A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E131429D1D801B3200C639A8 /* Main.storyboard */; };
 		E13142A11D801B3200C639A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E13142A01D801B3200C639A8 /* Assets.xcassets */; };
-		E13142A41D801B3200C639A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E13142A21D801B3200C639A8 /* LaunchScreen.storyboard */; };
 		E13142AF1D801B3200C639A8 /* Cuelogic_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13142AE1D801B3200C639A8 /* Cuelogic_AssignmentTests.swift */; };
 		E13142BA1D801B3200C639A8 /* Cuelogic_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13142B91D801B3200C639A8 /* Cuelogic_AssignmentUITests.swift */; };
+		E13142C91D8029F600C639A8 /* CAWebRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13142C81D8029F600C639A8 /* CAWebRequest.swift */; };
+		E13142CC1D802AA000C639A8 /* CAShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13142CB1D802AA000C639A8 /* CAShopViewController.swift */; };
+		E13142CE1D802AAF00C639A8 /* CACartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13142CD1D802AAF00C639A8 /* CACartViewController.swift */; };
+		E13142D41D8037E700C639A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E13142D21D8037E700C639A8 /* LaunchScreen.storyboard */; };
+		E13142D51D8037E700C639A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E13142D31D8037E700C639A8 /* Main.storyboard */; };
+		E13142DB1D80415000C639A8 /* CAProductInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13142DA1D80415000C639A8 /* CAProductInfo.swift */; };
+		E1AF65D71D804F6B008F16BB /* CAProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF65D61D804F6B008F16BB /* CAProductCollectionViewCell.swift */; };
+		E1AF65DA1D80736D008F16BB /* CACartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AF65D91D80736D008F16BB /* CACartTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20A8BB049B753310B80D1067 /* Pods-Cuelogic-AssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuelogic-AssignmentUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cuelogic-AssignmentUITests/Pods-Cuelogic-AssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A14128BA3A9E3712C18F8E0 /* Pods_Cuelogic_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cuelogic_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F74F7C2D1A0C1282D8E26B /* Pods_Cuelogic_AssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cuelogic_AssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD5C357C1DDE283B748D5F9 /* Pods-Cuelogic-AssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuelogic-AssignmentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cuelogic-AssignmentTests/Pods-Cuelogic-AssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		7E04B716A91A7C44BE447921 /* Pods-Cuelogic-AssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuelogic-AssignmentTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cuelogic-AssignmentTests/Pods-Cuelogic-AssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		918F4F725B9A82BFD6FB3147 /* Pods_Cuelogic_AssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cuelogic_AssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C001C99774FA9CA6981EF7E8 /* Pods-Cuelogic-AssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuelogic-AssignmentUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cuelogic-AssignmentUITests/Pods-Cuelogic-AssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C67020400626DA70005F343D /* Pods-Cuelogic-Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuelogic-Assignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cuelogic-Assignment/Pods-Cuelogic-Assignment.release.xcconfig"; sourceTree = "<group>"; };
 		E13142961D801B3200C639A8 /* Cuelogic-Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cuelogic-Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E13142991D801B3200C639A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E131429B1D801B3200C639A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E131429E1D801B3200C639A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E13142A01D801B3200C639A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E13142A31D801B3200C639A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E13142A51D801B3200C639A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E13142AA1D801B3200C639A8 /* Cuelogic-AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cuelogic-AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E13142AE1D801B3200C639A8 /* Cuelogic_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cuelogic_AssignmentTests.swift; sourceTree = "<group>"; };
@@ -47,6 +60,16 @@
 		E13142B51D801B3200C639A8 /* Cuelogic-AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cuelogic-AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E13142B91D801B3200C639A8 /* Cuelogic_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cuelogic_AssignmentUITests.swift; sourceTree = "<group>"; };
 		E13142BB1D801B3200C639A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E13142C81D8029F600C639A8 /* CAWebRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAWebRequest.swift; sourceTree = "<group>"; };
+		E13142CB1D802AA000C639A8 /* CAShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAShopViewController.swift; sourceTree = "<group>"; };
+		E13142CD1D802AAF00C639A8 /* CACartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CACartViewController.swift; sourceTree = "<group>"; };
+		E13142D21D8037E700C639A8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E13142D31D8037E700C639A8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E13142DA1D80415000C639A8 /* CAProductInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAProductInfo.swift; sourceTree = "<group>"; };
+		E1AF65D61D804F6B008F16BB /* CAProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		E1AF65D81D806ABE008F16BB /* Cuelogic-Assignment-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cuelogic-Assignment-Bridging-Header.h"; sourceTree = "<group>"; };
+		E1AF65D91D80736D008F16BB /* CACartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CACartTableViewCell.swift; sourceTree = "<group>"; };
+		FE26E830B1CA0B8F6AEFE7AD /* Pods-Cuelogic-Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuelogic-Assignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cuelogic-Assignment/Pods-Cuelogic-Assignment.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8344E8CB4B3C2CE928B0D8E7 /* Pods_Cuelogic_Assignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE05F4F861B2678692B2E756 /* Pods_Cuelogic_AssignmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +93,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D86F6089F27086545A223792 /* Pods_Cuelogic_AssignmentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01CA640A521C93B142BE7298 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE26E830B1CA0B8F6AEFE7AD /* Pods-Cuelogic-Assignment.debug.xcconfig */,
+				C67020400626DA70005F343D /* Pods-Cuelogic-Assignment.release.xcconfig */,
+				7E04B716A91A7C44BE447921 /* Pods-Cuelogic-AssignmentTests.debug.xcconfig */,
+				6AD5C357C1DDE283B748D5F9 /* Pods-Cuelogic-AssignmentTests.release.xcconfig */,
+				20A8BB049B753310B80D1067 /* Pods-Cuelogic-AssignmentUITests.debug.xcconfig */,
+				C001C99774FA9CA6981EF7E8 /* Pods-Cuelogic-AssignmentUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		63AC25ADF9879E080149B075 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A14128BA3A9E3712C18F8E0 /* Pods_Cuelogic_Assignment.framework */,
+				65F74F7C2D1A0C1282D8E26B /* Pods_Cuelogic_AssignmentTests.framework */,
+				918F4F725B9A82BFD6FB3147 /* Pods_Cuelogic_AssignmentUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E131428D1D801B3200C639A8 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +130,8 @@
 				E13142AD1D801B3200C639A8 /* Cuelogic-AssignmentTests */,
 				E13142B81D801B3200C639A8 /* Cuelogic-AssignmentUITests */,
 				E13142971D801B3200C639A8 /* Products */,
+				01CA640A521C93B142BE7298 /* Pods */,
+				63AC25ADF9879E080149B075 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +148,15 @@
 		E13142981D801B3200C639A8 /* Cuelogic-Assignment */ = {
 			isa = PBXGroup;
 			children = (
+				E13142C71D8029B100C639A8 /* Server Handling */,
+				E1AF65D31D804EE4008F16BB /* UIControls */,
+				E13142D91D80413600C639A8 /* Data Models */,
+				E13142CF1D80373800C639A8 /* User Interface */,
+				E13142CA1D802A7400C639A8 /* Controllers */,
 				E13142991D801B3200C639A8 /* AppDelegate.swift */,
-				E131429B1D801B3200C639A8 /* ViewController.swift */,
-				E131429D1D801B3200C639A8 /* Main.storyboard */,
 				E13142A01D801B3200C639A8 /* Assets.xcassets */,
-				E13142A21D801B3200C639A8 /* LaunchScreen.storyboard */,
 				E13142A51D801B3200C639A8 /* Info.plist */,
+				E1AF65D81D806ABE008F16BB /* Cuelogic-Assignment-Bridging-Header.h */,
 			);
 			path = "Cuelogic-Assignment";
 			sourceTree = "<group>";
@@ -125,6 +179,65 @@
 			path = "Cuelogic-AssignmentUITests";
 			sourceTree = "<group>";
 		};
+		E13142C71D8029B100C639A8 /* Server Handling */ = {
+			isa = PBXGroup;
+			children = (
+				E13142C81D8029F600C639A8 /* CAWebRequest.swift */,
+			);
+			path = "Server Handling";
+			sourceTree = "<group>";
+		};
+		E13142CA1D802A7400C639A8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E13142CB1D802AA000C639A8 /* CAShopViewController.swift */,
+				E13142CD1D802AAF00C639A8 /* CACartViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E13142CF1D80373800C639A8 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				E13142D21D8037E700C639A8 /* LaunchScreen.storyboard */,
+				E13142D31D8037E700C639A8 /* Main.storyboard */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		E13142D91D80413600C639A8 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				E13142DA1D80415000C639A8 /* CAProductInfo.swift */,
+			);
+			name = "Data Models";
+			sourceTree = "<group>";
+		};
+		E1AF65D31D804EE4008F16BB /* UIControls */ = {
+			isa = PBXGroup;
+			children = (
+				E1AF65D51D804F35008F16BB /* CATableViewCells */,
+				E1AF65D41D804F2A008F16BB /* CACollectionViewCells */,
+			);
+			path = UIControls;
+			sourceTree = "<group>";
+		};
+		E1AF65D41D804F2A008F16BB /* CACollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				E1AF65D61D804F6B008F16BB /* CAProductCollectionViewCell.swift */,
+			);
+			path = CACollectionViewCells;
+			sourceTree = "<group>";
+		};
+		E1AF65D51D804F35008F16BB /* CATableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				E1AF65D91D80736D008F16BB /* CACartTableViewCell.swift */,
+			);
+			path = CATableViewCells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E13142BE1D801B3200C639A8 /* Build configuration list for PBXNativeTarget "Cuelogic-Assignment" */;
 			buildPhases = (
+				B70A6AA8A69FAD5EB37501EE /* 📦 Check Pods Manifest.lock */,
 				E13142921D801B3200C639A8 /* Sources */,
 				E13142931D801B3200C639A8 /* Frameworks */,
 				E13142941D801B3200C639A8 /* Resources */,
+				BA9274D9CACCC5BF911BC6FA /* 📦 Embed Pods Frameworks */,
+				006B5768960CC1C87EDA1B77 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +265,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E13142C11D801B3200C639A8 /* Build configuration list for PBXNativeTarget "Cuelogic-AssignmentTests" */;
 			buildPhases = (
+				883305EED144282E0B7191B1 /* 📦 Check Pods Manifest.lock */,
 				E13142A61D801B3200C639A8 /* Sources */,
 				E13142A71D801B3200C639A8 /* Frameworks */,
 				E13142A81D801B3200C639A8 /* Resources */,
+				AEAE9D112ED6ED2E9905F5BA /* 📦 Embed Pods Frameworks */,
+				CC97DFB5E0C6329A39650FD7 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +286,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E13142C41D801B3200C639A8 /* Build configuration list for PBXNativeTarget "Cuelogic-AssignmentUITests" */;
 			buildPhases = (
+				9011044CA6625B6C0CE52C43 /* 📦 Check Pods Manifest.lock */,
 				E13142B11D801B3200C639A8 /* Sources */,
 				E13142B21D801B3200C639A8 /* Frameworks */,
 				E13142B31D801B3200C639A8 /* Resources */,
+				D1EABC15B78CE1382C643B04 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +314,7 @@
 				TargetAttributes = {
 					E13142951D801B3200C639A8 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = XM4KRR9357;
 					};
 					E13142A91D801B3200C639A8 = {
 						CreatedOnToolsVersion = 7.3;
@@ -229,9 +351,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E13142A41D801B3200C639A8 /* LaunchScreen.storyboard in Resources */,
+				E13142D51D8037E700C639A8 /* Main.storyboard in Resources */,
 				E13142A11D801B3200C639A8 /* Assets.xcassets in Resources */,
-				E131429F1D801B3200C639A8 /* Main.storyboard in Resources */,
+				E13142D41D8037E700C639A8 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +373,141 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		006B5768960CC1C87EDA1B77 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cuelogic-Assignment/Pods-Cuelogic-Assignment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		883305EED144282E0B7191B1 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9011044CA6625B6C0CE52C43 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AEAE9D112ED6ED2E9905F5BA /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cuelogic-AssignmentTests/Pods-Cuelogic-AssignmentTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B70A6AA8A69FAD5EB37501EE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA9274D9CACCC5BF911BC6FA /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cuelogic-Assignment/Pods-Cuelogic-Assignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC97DFB5E0C6329A39650FD7 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cuelogic-AssignmentTests/Pods-Cuelogic-AssignmentTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1EABC15B78CE1382C643B04 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cuelogic-AssignmentUITests/Pods-Cuelogic-AssignmentUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E13142921D801B3200C639A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E131429C1D801B3200C639A8 /* ViewController.swift in Sources */,
+				E1AF65D71D804F6B008F16BB /* CAProductCollectionViewCell.swift in Sources */,
+				E13142DB1D80415000C639A8 /* CAProductInfo.swift in Sources */,
+				E13142C91D8029F600C639A8 /* CAWebRequest.swift in Sources */,
+				E13142CC1D802AA000C639A8 /* CAShopViewController.swift in Sources */,
+				E13142CE1D802AAF00C639A8 /* CACartViewController.swift in Sources */,
 				E131429A1D801B3200C639A8 /* AppDelegate.swift in Sources */,
+				E1AF65DA1D80736D008F16BB /* CACartTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +541,6 @@
 			targetProxy = E13142B61D801B3200C639A8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E131429D1D801B3200C639A8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E131429E1D801B3200C639A8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E13142A21D801B3200C639A8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E13142A31D801B3200C639A8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E13142BC1D801B3200C639A8 /* Debug */ = {
@@ -397,28 +628,39 @@
 		};
 		E13142BF1D801B3200C639A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE26E830B1CA0B8F6AEFE7AD /* Pods-Cuelogic-Assignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Cuelogic-Assignment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Roshani-Mahajan.Cuelogic-Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/rajeshdarak/Desktop/Rfiles/Cuelogic-Assignment/Cuelogic-Assignment/Cuelogic-Assignment/Cuelogic-Assignment-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		E13142C01D801B3200C639A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C67020400626DA70005F343D /* Pods-Cuelogic-Assignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Cuelogic-Assignment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Roshani-Mahajan.Cuelogic-Assignment";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/rajeshdarak/Desktop/Rfiles/Cuelogic-Assignment/Cuelogic-Assignment/Cuelogic-Assignment/Cuelogic-Assignment-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		E13142C21D801B3200C639A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E04B716A91A7C44BE447921 /* Pods-Cuelogic-AssignmentTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Cuelogic-AssignmentTests/Info.plist";
@@ -431,6 +673,7 @@
 		};
 		E13142C31D801B3200C639A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AD5C357C1DDE283B748D5F9 /* Pods-Cuelogic-AssignmentTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Cuelogic-AssignmentTests/Info.plist";
@@ -443,6 +686,7 @@
 		};
 		E13142C51D801B3200C639A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20A8BB049B753310B80D1067 /* Pods-Cuelogic-AssignmentUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Cuelogic-AssignmentUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -454,6 +698,7 @@
 		};
 		E13142C61D801B3200C639A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C001C99774FA9CA6981EF7E8 /* Pods-Cuelogic-AssignmentUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Cuelogic-AssignmentUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,6 +727,7 @@
 				E13142C01D801B3200C639A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E13142C11D801B3200C639A8 /* Build configuration list for PBXNativeTarget "Cuelogic-AssignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +736,7 @@
 				E13142C31D801B3200C639A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E13142C41D801B3200C639A8 /* Build configuration list for PBXNativeTarget "Cuelogic-AssignmentUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +745,7 @@
 				E13142C61D801B3200C639A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
